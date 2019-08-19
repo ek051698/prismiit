@@ -3,9 +3,9 @@ layout: splash
 classes:
   - landing
 excerpt: "Illinois Tech's LGBTQ+ Club"
-logo: "assets/images/logos/pride_logo.png"
+logo: "/assets/images/logos/pride_logo.png"
 header:
-  overlay_image: "assets/images/headers/trans_background.jpg"
+  overlay_image: "/assets/images/headers/trans_background.jpg"
   actions:
     - label: "Join us on HawkLink"
       url: "https://hawklink.iit.edu/organization/Prism"

@@ -2,13 +2,12 @@
 layout: splash
 classes:
   - landing
-excerpt: "Illinois Tech's LGBTQ+ Club"
+excerpt: "Resources for Transgender Students"
 header:
 # make sure to change this to be a smaller image, hella large rn
-  image: /assets/images/trans_background.jpg
-logo: "/assets/images/trans_logo.png"
+  overlay_image: /assets/images/headers/trans_background.jpg
+logo: "/assets/images/logos/trans_logo.png"
 ---
-## Guides
 
 ### Student Health and Wellness Center (SHWC)
 

@@ -8,7 +8,7 @@
 
   <!-- Site Properties -->
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" type="text/css" href="/assets/semantic.css">
+  <link rel="stylesheet" type="text/css" href="{{site.url}}/assets/semantic.css">
 
   <style type="text/css">
 
@@ -113,8 +113,8 @@
 
   </style>
 
-  <script src="assets/jquery.min.js"></script>
-  <script src="assets/semantic.min.js"></script>
+  <script src="{{site.url}}/assets/jquery.min.js"></script>
+  <script src="{{site.url}}assets/semantic.min.js"></script>
   <script>
   $(document)
     .ready(function() {
@@ -182,10 +182,11 @@
 
     <div class="ui text container">
       <h1 class="ui header">
-        Imagine-a-Company
+        {{ page.excerpt }}
       </h1>
-      <h2>Do whatever you want when you want to.</h2>
-      <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
+      {% for action in page.header.actions %}
+      <a class="ui huge primary button" href="{{action.url}}">{{action.label}} <i class="right arrow icon"></i></a>
+      {% endfor %}
     </div>
 
   </div>
