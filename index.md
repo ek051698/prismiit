@@ -1,4 +1,5 @@
 ---
+title: Prism, Illinois Tech's LGBTQ+ Club
 layout: splash
 classes:
   - landing
