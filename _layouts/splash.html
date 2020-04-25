@@ -82,7 +82,8 @@
       padding: 5em 0em;
     }
 
-    .secondary.pointing.menu .toc.item {
+    .secondary.pointing.menu .toc.item,
+    .top.fixed.menu .toc.item {
       display: none;
     }
 
@@ -91,10 +92,13 @@
         display: none !important;
       }
       .secondary.pointing.menu .item,
-      .secondary.pointing.menu .menu {
+      .secondary.pointing.menu .menu,
+      .top.fixed.menu .item,
+      .top.fixed.menu .menu {
         display: none;
       }
-      .secondary.pointing.menu .toc.item {
+      .secondary.pointing.menu .toc.item,
+      .top.fixed.menu .toc.item {
         display: block;
       }
       .masthead.segment {
@@ -143,9 +147,18 @@
 </head>
 <body>
 
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+    <a class="active item">Home</a>
+    {% include nav.html %}
+</div>
+
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
   <div class="ui container">
+    <a class="toc item">
+        <i class="sidebar icon"></i>
+    </a>
     <a href="{{site.url}}" class="header item logo">
         <img class="logo" id="header-logo" src="{{page.logo}}">
     </a>
@@ -153,12 +166,6 @@
         {% include nav.html %}
     </div>
   </div>
-</div>
-
-<!-- Sidebar Menu -->
-<div class="ui vertical inverted sidebar menu">
-    <a class="active item">Home</a>
-    {% include nav.html %}
 </div>
 
 
@@ -181,8 +188,8 @@
     </div>
 
     <div class="ui text container">
-      <h1 class="ui header">
-        {{ page.excerpt }}
+      <h1 class="ui header {% if page.excerpt.inverted %} inverted {% endif %}">
+        {{ page.excerpt.text }}
       </h1>
       {% for action in page.header.actions %}
       <a class="ui huge primary button" href="{{action.url}}">{{action.label}} <i class="right arrow icon"></i></a>

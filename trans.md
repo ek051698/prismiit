@@ -1,8 +1,10 @@
 ---
 layout: splash
+title: Resources for Transgender Students
 classes:
   - landing
-excerpt: "Resources for Transgender Students"
+excerpt: 
+  text: "Resources for Transgender Students"
 header:
 # make sure to change this to be a smaller image, hella large rn
   overlay_image: /assets/images/headers/trans_background.jpg
