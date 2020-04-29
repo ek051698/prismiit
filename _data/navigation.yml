@@ -1,2 +1,4 @@
-  - title: "Trans"
-    url: /trans
+  - title: "Resources"
+    children:
+      -  title: "Transgender"
+         url: /resources/trans 

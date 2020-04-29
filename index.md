@@ -1,15 +1,15 @@
 ---
 title: Prism, Illinois Tech's LGBTQ+ Club
 layout: splash
-excerpt: 
-  text: "Illinois Tech's LGBTQ+ Club"
-  inverted: true
-logo: "/assets/images/logos/pride_logo.png"
+logo: /assets/images/logos/pride_logo.png
 header:
-  overlay_image: "/assets/images/headers/pride_background.jpg"
+  text: Illinois Tech's LGBTQ+ Club
+  inverted_splash: true
+  inverted_menu: true
+  overlay_image: /assets/images/headers/pride_background.jpg
   actions:
-    - label: "Join us on HawkLink"
-      url: "https://hawklink.iit.edu/organization/Prism"
+    - label: Join us on HawkLink
+      url: https://hawklink.iit.edu/organization/Prism
 ---
 
 ## Prism
