@@ -10,6 +10,8 @@ logo: "/assets/images/logos/lesbian_logo.png"
 
 Here's a handy slideshow with most of the LGBTQIA+ identities you'll ever hear or see. View the speaker notes for more details and info sources.
 
+<iframe src="https://docs.google.com/presentation/d/1tkSsVaSTU6QB13pSsMkA9drN-sU9tkmc8lRGH1XJFP8/embed?authuser=0" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox" width="100%" height="500px"></iframe>
+
 ## How to Be an Ally 
 ### Keep an Open Mind
 
