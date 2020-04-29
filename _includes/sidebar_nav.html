@@ -1,0 +1,34 @@
+{% assign navigation = site.data.navigation %}
+{% for nav in navigation %}
+    {% if nav.children != null %}
+    <div class="ui item">
+        {{ nav.title }}
+        <div class="menu">
+        {% for child in nav.children %}
+            {% comment %} internal/external URL check {% endcomment %}
+            {% if child.url contains "://" %}
+                {% assign child_url = child.url %}
+            {% else %}
+                {% assign child_url = child.url | relative_url %}
+            {% endif %}
+
+            {% comment %} set "active" class on current page {% endcomment %}
+            {% if child.url == page.url %}
+                {% assign active = "active" %}
+            {% else %}
+                {% assign active = "" %}
+            {% endif %}
+            <a href="{{ child_url }}" class="{{ active }}item">{{ child.title }}</a>
+        {% endfor %}
+        </div>
+    </div>
+    {% else %}
+    {% comment %} set "active" class on current page {% endcomment %}
+    {% if nav_url == page.url %}
+        {% assign active = "active" %}
+    {% else %}
+        {% assign active = "" %}
+    {% endif %}
+    <a href="{{ nav_url }}" class="{{ active }}item">{{ child.title }}</a>
+    {% endif %}
+{% endfor %}
