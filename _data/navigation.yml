@@ -1,3 +1,9 @@
+  - title: "About"
+    children:
+      -  title : "Club Activities"
+         url: /about/activities
+      -  title: "Activism"
+         url: /about/activism
   - title: "Resources"
     children:
       -  title: "Transgender"

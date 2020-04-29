@@ -16,24 +16,42 @@ header:
 <link href='assets/packages/daygrid/main.css' rel='stylesheet' />
 <link href='assets/packages/list/main.css' rel='stylesheet' />
 
-## Prism
-
+<div class="ui two column doubling stackable grid container" style="margin-bottom: 14px;">
+<div class="ui raised very padded container segment column">
+<h2>Welcome to Prism</h2>
+<p>
 Prism is Illinois Tech's LGBTQ+ club on campus. The purpose of Prism at IIT is to create a community on campus for all students, faculty, and staff within the LGBTQIA+ community and offer support for those who are questioning their sexual and/or gender identities. Through dialogues, fellowship, and social activities, our objective is to raise awareness about the important issues the LGBTQIA+ community faces and foster an accepting campus environment.  
+</p>
+</div>
+<div class="ui raised very padded container segment column" style="margin-top: 0px;">
 
-### GBM
+<a href="https://calendar.google.com/calendar/b/0/r?cid=iit.edu_687jcqqckknee6rg7fcn6n4ess@group.calendar.google.com" class="fluid ui button" style="margin-bottom: 14px;">Add our events to your Google Calendar</a>
 
-For Spring 2019, our General Body Meetings will be **Wednesdays at 6PM in Pritzker (Life Sciences) 152**
+<div data-tooltip="Both options will get all of our emails, but you can choose either for privacy reasons.">
+<h4 style="margin-bottom: 0px; text-align: center;">Join our Mailing list through</h4>
+<div class="fluid ui buttons" style="margin-bottom: 26px;">
+    <a href="https://hawklink.iit.edu/organization/Prism" class="ui primary button">HawkLink</a>
+    <div class="or"></div>
+    <a href="https://groups.google.com/forum/#!forum/prism-iit/join" class="ui button">Google Groups</a>
+</div>
+</div>
+
+<div class="ui fluid animated fade button" tabindex="0">
+    <div class="visible content">Get in touch with us through email</div>
+    <a href="mailto:prism@iit.edu" class="hidden content">
+        prism@iit.edu
+    </a>
+</div>
+</div>
+
+
+<div class="ui message">
+    For Spring 2020, our General Body Meetings (GBMs) will be in Pritzker (Life Sciences) Room 152. We hope to see you there!
+</div>
 
 <div id='loading'>loading...</div>
 <div id='calendar'></div>
 
-### Links
-
-[Add our events to your Google Calendar](https://calendar.google.com/calendar/b/0/r?cid=iit.edu_687jcqqckknee6rg7fcn6n4ess@group.calendar.google.com)
-
-[HawkLink](https://hawklink.iit.edu/organization/Prism) - Join our mailing list!
-
-Email us at [prism@iit.edu](mailto:prism@iit.edu)
 
 <script src='assets/packages/core/main.js'></script>
 <script src='assets/packages/interaction/main.js'></script>
