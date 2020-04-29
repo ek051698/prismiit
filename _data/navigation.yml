@@ -2,3 +2,7 @@
     children:
       -  title: "Transgender"
          url: /resources/trans 
+      -  title: "LGBTQIA+ Basics"
+         url: /resources/basics
+      -  title: "General Resources"
+         url: /resources/general

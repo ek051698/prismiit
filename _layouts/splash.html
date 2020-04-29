@@ -58,6 +58,11 @@
     .top.fixed.menu .toc.item {
       display: none;
     }
+    
+    .ui.secondary.inverted.pointing.menu {
+        border-width: 0px;
+        border-bottom: 2px solid #bfbfbf;
+    }
 
     @media only screen and (max-width: 700px) {
       .ui.fixed.menu {
@@ -124,7 +129,7 @@
   <div class="ui vertical masthead center aligned segment" id="masthead-header">
 
     <div class="ui container">
-      <div class="ui large secondary pointing menu">
+      <div class="ui large {% if page.header.inverted_menu %}inverted{% endif %} secondary pointing menu">
         <a href="{{site.url}}" class="header item logo">
             <img class="logo" id="header-logo" src="{{page.logo}}">
         </a>
